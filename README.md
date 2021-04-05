@@ -23,7 +23,7 @@ This code is an example of GraphQL server, backend for any modern web app. We ar
 
 ## Important inclusions in this example to consider
 
-####1. Mongoose library and connection with MongoDB
+#### 1. Mongoose library and connection with MongoDB
 
   ###### app.js
 
@@ -110,7 +110,7 @@ This code is an example of GraphQL server, backend for any modern web app. We ar
             }
     ...
 
-####3. File Operations 
+#### 3. File Operations 
   ###### app.js
     ...
     const path = require('path');
@@ -145,7 +145,7 @@ This code is an example of GraphQL server, backend for any modern web app. We ar
     ...
 
 
-####4. CORS Fixes 
+#### 4. CORS Fixes 
   ###### app.js 
     ...
     app.use((req, res, next) => {
@@ -159,7 +159,7 @@ This code is an example of GraphQL server, backend for any modern web app. We ar
     });
     ...
 
-####5. Generic error handler
+#### 5. Generic error handler
   ###### app.js
     ...
     app.use((error, req, res, next) => {
